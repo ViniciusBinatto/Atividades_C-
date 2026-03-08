@@ -4,7 +4,7 @@ class Program
 {
     static void Main()
     {
-        Console.WriteLine("Digite: \n 1- Conversão de temperatura; \n 2- Calcular área do triângulo; \n 3- Média de alunos; \n 4- Desconto de produtos; \n 5- Contagem egressiva.");
+        Console.WriteLine("Digite: \n 1- Conversão de temperatura; \n 2- Calcular área do retangulo; \n 3- Média de alunos; \n 4- Desconto de produtos; \n 5- Contagem egressiva.");
         int opcao = int.Parse(Console.ReadLine());
 
         switch (opcao)
@@ -14,7 +14,7 @@ class Program
                 break;
 
             case 2:
-                Atividade_DS.area_do_triangulo.Executar(); // Chama o método
+                Atividade_DS.area_do_retangulo.Executar(); // Chama o método
                 break;
             
             case 3:
